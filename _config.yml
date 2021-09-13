@@ -9,7 +9,7 @@ name: Shawn Stewart
 description: UT Dallas student in Social Data Analytics and Research. 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/shawnnstewart/shawnnstewart.github.io/images/ProfilePic.JPG
+avatar: "/images/ProfilePic.JPG"
 
 #
 # Flags below are optional
