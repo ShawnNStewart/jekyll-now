@@ -2,9 +2,6 @@
 layout: post
 title: Data, Data Everywhere
 ---
-
-Data, Data Everywhere
-
 “Journalism in the Age of Data”, published by Geoff McGhee in 2011, presents a look at how data visualization has become incorporated into mainstream journalism and become exponentially more complex over a brief period of time. In a field where software and techniques become outdated very rapidly, this video’s message is still relevant a decade later and still contains important insights for anyone interested in data visualization. In particular, there is a focus on the importance of using data well. Anyone can create a chart, but it takes skill to create a chart that is engaging, easily readable, and tells a story. In a world where more and more data are available every day, it’s important to understand that not all data visualizations are equally useful.  
 
 **A large amount of data does not automatically convey a large amount of information.** It is entirely possible to bring together very large data sets or time series that extend across many years, but unless the visualization is created thoughtfully, the end result may not be coherent or useful. The tricky thing here is that visualizations (especially interactive ones) that use large amounts of data often look very flashy and visually appealing. However, the real test is whether a viewer can “read” the graphic and understand something from it. 
