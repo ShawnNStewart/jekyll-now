@@ -1,6 +1,6 @@
 ---
-layout:post
-title:The Infamous Google Flu
+layout: post
+title: The Infamous Google Flu
 ---
 Every data science student these days has heard of Google Flu Trends, which debuted to great acclaim in 2009 and quietly shuttered in disgrace in 2014. The idea behind Google Flu was an appealing one – harness the power of Big Data to “nowcast” flu levels better than the CDC. And at first, it seemed like it was working. However, as the experiment continued it became clear that the Google Flu model was overfitted and overparameterized, causing it to grossly overestimate the rates of flu in future years. 
 
