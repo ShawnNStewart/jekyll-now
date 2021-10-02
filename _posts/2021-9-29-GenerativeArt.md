@@ -1,6 +1,6 @@
 ---
 layout: post
-title: R Exercises: Generative Art
+title: R Exercises - Generative Art
 ---
 When most people think of programming, the first thing they think of is not art. However, there is a whole community of artists doing just that - creating art with code. Antonio Chinchón is one such artist, who hosts the blog [https://fronkonstin.com](https://fronkonstin.com) where he posts his experiments in R. 
 
