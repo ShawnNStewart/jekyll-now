@@ -89,7 +89,7 @@ ggplot() +
 
 The original R output gives you this image. 
 
-![An R plot that looks like a tree, brownish color](/images/SpringOriginal.pdf)
+![An R plot that looks like a tree, brownish color]("/images/SpringOriginal.pdf")
 
 We can easily change the color to give it a different look. 
 
