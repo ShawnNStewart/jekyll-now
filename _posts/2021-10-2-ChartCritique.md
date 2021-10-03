@@ -9,13 +9,13 @@ The Economic Policy Institute includes data and high-quality visualizations in m
 
 
 We notice several things in the construction of this visualization:
-<ul>The text on the visualization is all sans serif font, with different sizes and weights.</ul>
-<ul>It is very text heavy. The title and subtitle are rather long. The title makes a claim (in large text) while the subtitle describes what we see in the graphic (smaller more subtle text).</ul>
-<ul>Light gray dotted lines are included to make it easier to connect the points on the line to the wages on the Y-axis.</ul>
-<ul>A legend is included, on a white background so that it does not get confused with the gray lines.</ul>
-<ul>There are two colors for the lines, both in the same color – light blue and dark blue. Where the lines overlap, the light blue line is on top.</ul> 
-<ul>The source is listed at the bottom along with explanatory details about the data.</ul>
-<ul>A branded “Economic Policy Institute” text is included in the bottom right</ul>
+<ul>- The text on the visualization is all sans serif font, with different sizes and weights.</ul>
+<ul>- It is very text heavy. The title and subtitle are rather long. The title makes a claim (in large text) while the subtitle describes what we see in the graphic (smaller more subtle text).</ul>
+<ul>- Light gray dotted lines are included to make it easier to connect the points on the line to the wages on the Y-axis.</ul>
+<ul>- A legend is included, on a white background so that it does not get confused with the gray lines.</ul>
+<ul>- There are two colors for the lines, both in the same color – light blue and dark blue. Where the lines overlap, the light blue line is on top.</ul> 
+<ul>- The source is listed at the bottom along with explanatory details about the data.</ul>
+<ul>- A branded “Economic Policy Institute” text is included in the bottom right</ul>
 
 Overall, this is an effective graphic. There is not a lot of “chart junk.” The elements of the plot, such as the gridlines, are reduced as much as possible. The axes are labelled clearly and the source is clear. When dealing with overlapping lines, one has to choose which line will be in the foreground. In this case, they highlighted the line representing “wages if the Raise the Wage Act 2021 passes.” This emphasizes that there would be no change to the wages in the higher deciles of childcare workers. The convergence of the two lines at the 50th decile supports the authors claims that Raise the Wage Act 2021 would primarily affect lower decile childcare workers.
 
