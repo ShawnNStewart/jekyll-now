@@ -1,5 +1,5 @@
 ---
-layout: plot
+layout: post
 title: R Exercises - Anscombe's Quartet
 ---
 Anscombe’s Quartet clearly and cleverly shows why it is essential to view your data (as in, create a data visualization to explore it). Just looking at lists of numbers, or even the descriptive statistics for the dataset, cannot give us a complete understanding of the patterns in the data. For that, we need visualization. 
