@@ -7,7 +7,7 @@ Every beginning programmer is told, emphatically – comment your code! Whether 
 Donald Knuth’s concept of literature programming goes a step further. Literate programming combines source code with explanations in plain English, making it even easier to reproduce and edit others’ (or our own) work in the future. In the world of data science and open research, this is invaluable. 
 
 >*“An individual block of code takes moments to write, minutes to debug, and can last forever without being touched again. It’s only when you visit code written yesterday that having code written in a clear, consistent style becomes extremely useful. Understandable code frees up your mental bandwidth from having to puzzle out inconsistencies, making it easier to maintain and enhance projects of all sizes.”*
->* — Daniel Roy Greenfeld, Python Django developer and author*
+> *— Daniel Roy Greenfeld, Python Django developer and author*
 
 Clearly other people in the field agree, as we’ve seen the growth of packages like RMarkdown and Bookdown. It’s now possible to write entire papers and reports with R. There are practical benefits to having your paper, source code, and outputs intertwined in this way. For example, it eliminates the need to flip between the code and the paper, making it easier to see how the two relate to each other (Bowers & Voor 2016). There are also benefits, such as allowing the program to assign figure numbers. Instead of tediously updating all the figure numbers if you decide to move something, they’re automatically generated.
 
