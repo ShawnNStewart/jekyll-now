@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exercise – Data Visualization Critique
+title: Data Visualization Critique
 ---
 
 The Economic Policy Institute includes data and high-quality visualizations in many of their publications. Here is a visualization they included in a publication on raising the minimum wage. 
