@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: EPPS 6354 - Assignment 4
+title: EPPS 6354 Assignment 4
 ---
 
 ###Question 3a: 
