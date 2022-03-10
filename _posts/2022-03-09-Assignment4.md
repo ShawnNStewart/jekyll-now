@@ -3,6 +3,23 @@ layout: post
 title: EPPS 6354 Assignment 4
 ---
 
+### Question 1: 
+Explain the difference between a weak and a strong entity set.  Use an example other than the one in Chapter 6 to illustrate.
+
+#### Answer
+
+A strong entity set has a primary key and is not dependent on any other set in the schema. It stands alone. A weak entity set does not have a primary key. Instead it has a "discriminator." Relationship sets betweeen a weak and strong entity set use the primary key fo the strong entity set and the discriminator of the weak entity set to form the primary key for the relationship schema. 
+
+As an example, let's consider a company database that has data on employees and their dependents. The *employee* relation could be a strong entity set (including a primary key of employee ID), while the *dependent* relation could be a weak entity set, including only the dependent name which is used as the discriminator. The relationship set *family* could connect these two entity sets to identify which family members go with which employee. Even without this relationship set, the *employee* relation is still useful and can identify unique tuples. However, the weak entity set is dependent on the relationship set to help define its unique tuples. 
+
+
+### Question 2
+Design an E-R diagram for keeping track of the scoring statistics of your favorite sports team. You should store the matches played, the scores in each match, the players in each match, and individual player scoring statistics for each match. Summary statistics should be modeled as derived attributes with an explanation as to how they are computed. (Consult: https://www.db-book.com/db7/practice-exer-dir/PDF-dir/6s.pdf) 
+
+a)Draw the E-R diagram using draw.io
+b)Expand to all teams in the league (Hint: add team entity)
+
+#### Answer 
 
 ### Question 3a: 
 Consider the following query. Explain why appending natural join section in the from clause would not change the result. 
