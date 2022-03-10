@@ -21,6 +21,12 @@ b)Expand to all teams in the league (Hint: add team entity)
 
 #### Answer 
 
+Let's assume that players can be uniquely identified by the combination of their name and jersey number, that teams all have unique names, and matches have an ID to differentiate them. 
+
+Scores for players are captured in the *scores* relationship schema, and an additional derived attribute is calculated using the *scores* associated with each team and match, so that we get a score per team per match. 
+
+  ![A schema diagram of a generic sport](https://shawnnstewart.github.io/images/SportsSchema.png "a schema")
+
 ### Question 3a: 
 Consider the following query. Explain why appending natural join section in the from clause would not change the result. 
   **select** *course_id, semester, year, sec_id, * **avg** *(tot_cred)*   
