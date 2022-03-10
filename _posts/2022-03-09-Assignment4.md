@@ -14,7 +14,8 @@ Consider the following query. Explain why appending natural join section in the 
   
   #### Answer: 
   A natural join any attributes with the same name across the specified relations and only returns tuples where those attribute values match across relations. 
-  The relations *takes* and *section* share almost all of the same attributes - course_id, sec_id, semester, year, and all of these relations should be idnetifcal across *section* and *takes*. The only common attribute between *student* and the other relations is *ID*. The relation *takes* does not add any new, common attributes that would unncessarily limit the results. 
+  The relations *takes* and *section* share almost all of the same attributes - course_id, sec_id, semester, year, and all of these relations should be identical across *section* and *takes*. The only common attribute between *student* and the other relations is *ID*. The relation *takes* does not add any new, common attributes that would unncessarily limit the results. 
+  
   By contrast, adding a natural join with *course* would change the results, as both *course* and *student* have the attribute *dept_name*. The natural join would only return courses that the student took within their own department, and no courses taken in different departments. 
 
 ### Question 3b
