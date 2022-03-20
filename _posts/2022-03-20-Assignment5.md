@@ -18,7 +18,7 @@ We can convert any weak entity set to a strong entity set by simply adding appro
 We use weak entity sets to make our databases more efficient and less redundant. 
 
 
-### Question 4, SQL exercise
+### Question 4A, SQL exercise
 Consider the employee database: 
 
   ![A schema diagram](https://shawnnstewart.github.io/images/Assignment5ExampleSchema.png "a schema")
@@ -31,3 +31,14 @@ where the primary keys are underlined. Give an expression in SQL for each of the
 **ii.Find ID and name of each employee who lives in the same city and on the same street as does her or his manager.**  
 
 **iii.Find ID and name of each employee who earns more than the average salary of all employees of her or his company.**
+
+
+### Question 4B
+Consider the following SQL query that seeks to find a list of titles of all courses taught in Spring 2017 along with the name of the instructor.
+select name, title
+from instructor natural join teaches natural join section natural join course
+where semester = 'Spring' and year = 2017
+
+What is wrong with this query? (Hint: check book website)
+
+#### Answer
