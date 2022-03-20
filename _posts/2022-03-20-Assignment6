@@ -1,0 +1,30 @@
+---
+layout: post
+title: EPPS 6354 Assignment 6
+---
+
+#### Question 1
+
+Look up websites containing the following data representations
+a)Using JSON
+b)Using XML
+
+Analyze the websites in terms of structure and composition. Name the technology/methods use for creating the web database.
+
+#### Answer
+
+
+### Question 2 part i
+Express the following query in SQL using no subqueries and no set operations. (Hint: left outer join)
+select ID
+from student
+except 
+select s id
+from advisor
+where i ID is not null
+
+
+#### Answer
+
+### Question 2 part ii
+Using the university schema, write an SQL query to find the names and IDs of those instructors who teach every course taught in his or her department (i.e., every course that appears in the course relation with the instructor’s department name). Order result by name. 
