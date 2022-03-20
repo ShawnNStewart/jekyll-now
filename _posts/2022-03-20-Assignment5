@@ -1,0 +1,18 @@
+---
+layout: post
+title: EPPS 6354 Assignment 4
+---
+
+### Question 2
+Construct an E-R diagram for a hospital with a set of patients and a set of medical doctors. Associate with each patient a log of the various tests and examinations conducted (Hint: use draw.io to draw the diagram with relationship sets).  
+
+
+#### Answer
+
+
+
+### Question 3
+We can convert any weak entity set to a strong entity set by simply adding appropriate attributes. Why, then, do we have weak entity sets?  
+
+#### Answer
+We use weak entity sets to make our databases more efficient and less redundant. 
