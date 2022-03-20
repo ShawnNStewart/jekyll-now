@@ -28,3 +28,5 @@ where i ID is not null
 
 ### Question 2 part ii
 Using the university schema, write an SQL query to find the names and IDs of those instructors who teach every course taught in his or her department (i.e., every course that appears in the course relation with the instructor’s department name). Order result by name. 
+
+#### Answer
