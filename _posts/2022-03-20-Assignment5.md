@@ -9,7 +9,7 @@ Construct an E-R diagram for a hospital with a set of patients and a set of medi
 
 #### Answer
 
-
+![A schema diagram](https://shawnnstewart.github.io/images/Assignment5Example.png "a schema")
 
 ### Question 3
 We can convert any weak entity set to a strong entity set by simply adding appropriate attributes. Why, then, do we have weak entity sets?  
