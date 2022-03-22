@@ -47,6 +47,11 @@ In this case, the relation *employee* is involved twice, once to pull out the em
 
 **iii.Find ID and name of each employee who earns more than the average salary of all employees of her or his company.**
 
+**select** *e.ID, e.person_name* \
+**from** *works* as *a*, *employee* as *e* \
+*where** *salary* >(**select** avg(*salary*) \
+**from** *works* as *b* \
+**where** *a.company-name = b.company-name() \
 
 ### Question 4B
 Consider the following SQL query that seeks to find a list of titles of all courses taught in Spring 2017 along with the name of the instructor.
