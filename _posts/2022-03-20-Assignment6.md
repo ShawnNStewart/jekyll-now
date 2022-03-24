@@ -37,3 +37,13 @@ Express the following query in SQL using no subqueries and no set operations. (H
 Using the university schema, write an SQL query to find the names and IDs of those instructors who teach every course taught in his or her department (i.e., every course that appears in the course relation with the instructor’s department name). Order result by name. 
 
 #### Answer
+
+**select** *i.id, i.name*
+**from** *instructor i*
+  **join** *teaches t on i.id = t.id*
+**group by** *i.id, i.deptname*
+**having** count(distinct *course_id*) = (
+  **select** count(distinct *course_id*)
+  **from** *course c* 
+  **where** *c.deptname = i.deptname*)
+**order by** *i.name*
