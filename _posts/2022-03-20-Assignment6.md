@@ -13,6 +13,7 @@ Analyze the websites in terms of structure and composition. Name the technology/
 
 #### Answer
 
+The UT Dallas ISSO webpage uses Amazon Connect to serve live chat functionality. The Amazon Connect instance is configured to store all chat logs in an S3 bucket in Amazon Web Services, and the chat logs are stored as JSON files. Things such as date, agent, and chat text are stored and can be retrieved as needed through the Amazon Connect dashboard by staff members. The Amazon Connect dashboard provides user-friendly access to information stored in the database, and is used by staff members (not students or other clients sending chat messages). For example, through the dashboard a supervisor can pull a list of all chats answered by a particular agent, including their time stamps and chat details, for review. 
 
 ### Question 2 part i
 Express the following query in SQL using no subqueries and no set operations. (Hint: left outer join)
