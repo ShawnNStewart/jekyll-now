@@ -1,0 +1,106 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red11\green76\blue180;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c1961\c38824\c75686;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 PURPOSE\
+=================================\
+UT Dallas is home to an incredibly diverse student body, and the International Students and Scholars Office wants to highlight this fact on our website and in our marketing materials. We produce an annual Fact Sheet in pdf format, but we want to provide data that students and stakeholders can interact with as well. Students and stakeholders often ask about which countries send the most students to UTD and about the break down of students by academic level. This script will allow the user to select a CSV file containing data from OSPA and then generate an interactive HTML map that can be embedded on the ISSO website. The user only needs to select their CSV file, then provide a name and location to save the output. \
+\
+\
+INSTRUCTIONS\
+=================================\
+\
+\'97Pre-requisites\'97\
+This script is written in Python. To run this script, you will need to install some software (Anaconda) that will allow you to access Jupyter Notebook, which will run the script. You will also need to install some specialized Python libraries for the code to work correctly. Follow the instructions below to set up your computer for the first time. After you follow these steps once, you will not need to do them again. \
+\
+**Install Anaconda**\
+Install Anaconda from https://www.anaconda.com/. Once this is installed, you can run it. This will open a dashboard with different tiles you can click on. The tile we will be using for this project is the Jupyter Notebook tile. However, first we need to install a few more things.\
+\
+**Install Python libraries**\
+We need to install some additional libraries for this program to run correctly. You will need to open \'93command prompt\'94 on your Windows computer (or \'93terminal\'94 if you are on Mac).\
+\
+Once you have opened command prompt/terminal, you type or copy/paste the following command:\
+\
+conda install geopandas\
+\
+Once you type/paste this information in and press enter, you will see command prompt work on installing the libraries. Once it completes, you are ready to go! \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \'97Getting the data\'97\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+For this project, we use the data provided by OSPA. We typically use the data provided immediately after fall census day. To access the data warehouse, you need to be added to the daily email from UTDDW. You can click on any of the links in that daily report to be taken to the OSPA data warehouse. \
+\
+\'97Running the program\'97\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Open the Anaconda Navigator and select the Jupyter Notebook tile. This will open a new tab in your web browser. Note, although this opens in your web browser, it is not running on the internet. Everything is saved to and hosted on your local computer. \
+\
+You will see what looks like a file menu. Navigate to the folder where this readme and the program are saved, and open the program. \
+\
+A new window will open with a program. There are a series of \'93cells\'94 with either text or code in them. You will read the instructions and run each block of code, in order, by clicking on it and pressing \'93shift + enter.\'94 As the code in the cell runs, a little asterisk will appear to the left. Some cells will run very quickly, while some cells may take several minutes to finish running. \
+\
+You will be prompted to enter some information. In the first code cell, you will be prompted to select your data file. Then, in the final code cell you will be prompted to enter a file name and location for where to save your output. \
+\
+\
+\'97Expected output\'97\
+\
+This program will generate an HTML file. If you double click on the HTML file to open it, it will open in your default browser and it will show the interactive map. Each of the bubbles is clickable and will show the country name when you hover over it. Upon clicking, a pop up will show with details about the students from that country. \
+\
+\'97Putting the map on WordPress\'97\
+\
+You will need to work with the ISSO Assistant Director for Communication, Assessment, and Strategic Initiatives. Submit a Multimedia Request through OneNote to request an updated map be added to the website. \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+REFERENCES\
+=================================\
+\
+\'97 Folium\'97\
+\pard\pardeftab720\li960\fi-480\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\'b7\'a0\'a0\'a0\'a0\'a0 Folium documentation - {\field{\*\fldinst{HYPERLINK "https://python-visualization.github.io/folium/quickstart.html"}}{\fldrslt \cf3 \ul \ulc3 https://python-visualization.github.io/folium/quickstart.html}}\'a0 \
+\'b7\'a0\'a0\'a0\'a0\'a0 Adding just circles to the map - {\field{\*\fldinst{HYPERLINK "https://www.youtube.com/watch?v=jFaa2vwU4-M"}}{\fldrslt \cf3 \ul \ulc3 https://www.youtube.com/watch?v=jFaa2vwU4-M}} \
+\'b7\'a0\'a0\'a0\'a0\'a0 Folium doesn\'92t require JSON file, can read straight from geodataframe - {\field{\*\fldinst{HYPERLINK "https://stackoverflow.com/questions/50206539/how-to-generate-folium-map-using-geodataframe"}}{\fldrslt \cf3 \ul \ulc3 https://stackoverflow.com/questions/50206539/how-to-generate-folium-map-using-geodataframe}} \cf3 \ul \ulc3 \
+\cf2 \ulnone \'b7\'a0\'a0\'a0\'a0\'a0 Generating folium map - {\field{\*\fldinst{HYPERLINK "https://www.python-graph-gallery.com/312-add-markers-on-folium-map"}}{\fldrslt \cf3 \ul \ulc3 https://www.python-graph-gallery.com/312-add-markers-on-folium-map}} \cf3 \ul \ulc3 \
+\cf2 \ulnone \'b7\'a0\'a0\'a0\'a0\'a0 Getting from country name to long/lat and cluster markers (based map on this code) - {\field{\*\fldinst{HYPERLINK "https://towardsdatascience.com/using-python-to-create-a-world-map-from-a-list-of-country-names-cd7480d03b10"}}{\fldrslt \cf3 \ul \ulc3 https://towardsdatascience.com/using-python-to-create-a-world-map-from-a-list-of-country-names-cd7480d03b10}} \
+\pard\pardeftab720\li960\fi-480\partightenfactor0
+\cf2 \'b7\'a0\'a0\'a0\'a0\'a0 How to set maps by country - {\field{\*\fldinst{HYPERLINK "https://stackoverflow.com/questions/53343516/folium-choropleth-world-map-default-values-for-countries"}}{\fldrslt \cf3 \ul \ulc3 https://stackoverflow.com/questions/53343516/folium-choropleth-world-map-default-values-for-countries}}\
+\'b7\'a0\'a0\'a0\'a0\'a0 Save map to html - {\field{\*\fldinst{HYPERLINK "https://stackoverflow.com/questions/64873143/export-python-folium-heat-map-with-time-to-html"}}{\fldrslt \cf3 \ul \ulc3 https://stackoverflow.com/questions/64873143/export-python-folium-heat-map-with-time-to-html}} \
+\'b7\'a0\'a0\'a0\'a0\'a0 YouTube channel with Folium tutorials  - https://youtu.be/jFaa2vwU4-M \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \'97GeoDataFrames and geographic data\'97\
+\pard\pardeftab720\li960\fi-480\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\'b7\'a0\'a0\'a0\'a0\'a0 Converting Pandas df column to list = https://www.statology.org/pandas-column-to-list/ \cf0 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\li960\fi-480\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\'b7\'a0\'a0\'a0\'a0\'a0 Linked in learning course - {\field{\*\fldinst{HYPERLINK "https://www.linkedin.com/learning/data-science-foundations-python-scientific-stack-14633070/using-geo-data-with-shapely?autoSkip=true&autoplay=true&resume=false&u=70198226"}}{\fldrslt \cf3 \ul \ulc3 https://www.linkedin.com/learning/data-science-foundations-python-scientific-stack-14633070/using-geo-data-with-shapely?autoSkip=true&autoplay=true&resume=false&u=70198226}}\cf3 \ul \ulc3 \
+\pard\pardeftab720\li960\fi-480\partightenfactor0
+\cf2 \ulnone \'b7\'a0\'a0\'a0\'a0\'a0 Getting geodataframe into Folium - {\field{\*\fldinst{HYPERLINK "https://ocefpaf.github.io/python4oceanographers/blog/2015/12/14/geopandas_folium/"}}{\fldrslt \cf3 \ul \ulc3 https://ocefpaf.github.io/python4oceanographers/blog/2015/12/14/geopandas_folium/}}\
+\'b7\'a0\'a0\'a0\'a0\'a0 Setting CRS on geodataframe - {\field{\*\fldinst{HYPERLINK "https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoDataFrame.set_crs.html"}}{\fldrslt \cf3 \ul \ulc3 https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoDataFrame.set_crs.html}}\cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\'97NominatimAPI\'97\
+\pard\pardeftab720\li960\fi-480\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\'b7\'a0\'a0\'a0\'a0\'a0 Nominatim API documentation: {\field{\*\fldinst{HYPERLINK "https://nominatim.org/release-docs/develop/api/Search/#parameters"}}{\fldrslt \cf3 \ul \ulc3 https://nominatim.org/release-docs/develop/api/Search/#parameters}}\cf3 \ul \ulc3 \
+\cf2 \ulnone \'b7\'a0\'a0\'a0\'a0\'a0 Get nominatim API data into GeoPandas dataframe object - {\field{\*\fldinst{HYPERLINK "https://stackoverflow.com/questions/45552955/loading-json-into-a-geodataframe"}}{\fldrslt \cf3 \ul \ulc3 https://stackoverflow.com/questions/45552955/loading-json-into-a-geodataframe}}\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 \
+\'97Other\'97\
+\pard\pardeftab720\li960\fi-480\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\'b7\'a0\'a0\'a0\'a0\'a0 Getting unique items from list - https://www.geeksforgeeks.org/python-get-unique-values-list/ \
+\'b7\'a0\'a0\'a0\'a0\'a0 Easy file upload dialogue with TkInter - {\field{\*\fldinst{HYPERLINK "https://stackoverflow.com/questions/9319317/quick-and-easy-file-dialog-in-python"}}{\fldrslt \cf3 \ul \ulc3 https://stackoverflow.com/questions/9319317/quick-and-easy-file-dialog-in-python}}\
+\'b7\'a0\'a0\'a0\'a0\'a0 How to limit to just csv - https://www.geeksforgeeks.org/python-askopenfile-function-in-tkinter/ \
+\'b7\'a0\'a0\'a0\'a0\'a0 Limiting input strings using regex - {\field{\*\fldinst{HYPERLINK "https://stackoverflow.com/questions/8761778/limiting-python-input-strings-to-certain-characters-and-lengths"}}{\fldrslt \cf3 \ul \ulc3 https://stackoverflow.com/questions/8761778/limiting-python-input-strings-to-certain-characters-and-lengths}} \
+\'b7\'a0\'a0\'a0\'a0\'a0 Check if variable empty for while loop - {\field{\*\fldinst{HYPERLINK "https://pytutorial.com/check-if-variable-is-empty-in-python"}}{\fldrslt \cf3 \ul \ulc3 https://pytutorial.com/check-if-variable-is-empty-in-python}} \
+\
+\
+}
