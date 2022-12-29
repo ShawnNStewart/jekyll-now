@@ -2,7 +2,7 @@
 layout: post
 title: Interactive Map Generator
 ---
-For my fall 2022 Python Programming course (EPPS 6317), we were tasked with creating a tool using what we had learned about Python. The goal was to create a reusable script. For my project, I created a script in Jupyter Notebook that could be used to take a file input, generate an interactive map, and allow the user to name and save it as an HTML file to be included on the ISSO website. For more details, see the [readme file](https://shawnnstewart.github.io/Projects/InteractiveMapToolreadme). 
+For my fall 2022 Python Programming course (EPPS 6317), we were tasked with creating a tool using what we had learned about Python. The goal was to create a reusable script. For my project, I created a script in Jupyter Notebook that could be used to take a file input, generate an interactive map, and allow the user to name and save it as an HTML file to be included on the ISSO website. For more details, see the [readme file](https://shawnnstewart.github.io/Projects/InteractiveMapToolreadme.rtf). 
 
 # Interactive Map
 *Updated 12/10/2022*
